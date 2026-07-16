@@ -45,6 +45,6 @@ pip install -r requirements.txt
 
 ## Documentation
 
-- [Installation Guide](docs/INSTALL.md)
-- [API Reference](docs/API.md)
-- [Configuration](docs/CONFIGURATION.md)
+- [Installation Guide](docs/install.md)
+- [API Reference](docs/app.md)
+- [Configuration](docs/configuration.md)
