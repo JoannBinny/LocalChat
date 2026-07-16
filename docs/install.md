@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ---
 
-# Option A: Ollama (Recommended)
+# Ollama 
 
 ## Install Ollama
 
@@ -76,40 +76,3 @@ http://localhost:8000
 
 ---
 
-# Option B: Hugging Face
-
-## Create an Access Token
-
-Generate a free token from:
-
-https://huggingface.co/settings/tokens
-
-## Set Environment Variables
-
-Windows PowerShell:
-
-```powershell
-$env:USE_HF="true"
-$env:HF_TOKEN="your_token_here"
-```
-
-Linux / macOS:
-
-```bash
-export USE_HF=true
-export HF_TOKEN=your_token_here
-```
-
-## Run the Application
-
-```bash
-python app.py
-```
-
-Default Hugging Face model:
-
-```python
-HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.2"
-```
-
-You may override it through the `HF_MODEL` environment variable.
