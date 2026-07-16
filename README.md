@@ -1,12 +1,10 @@
 # Free LLM Chatbot
 
-A simple chatbot built with **Python, FastAPI, and free LLMs**. It supports both **Ollama** (local models) and **Hugging Face Inference API** (cloud-based free tier).
-
+A simple chatbot built with Python, FastAPI, and Ollama.
 ## Features
 
 - Streaming responses (tokens appear as they are generated)
 - Ollama support (offline, free, local inference)
-- Hugging Face support (free inference API)
 - Conversation memory (last 10 messages)
 - Temperature control (0–2)
 - Runtime model selection
