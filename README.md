@@ -1,4 +1,4 @@
-# Free LLM Chatbot
+# LocalChat
 
 A simple chatbot built with Python, FastAPI, and Ollama.
 ## Features
