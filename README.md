@@ -19,10 +19,14 @@ A simple chatbot built with Python, FastAPI, and Ollama.
 
 ```text
 .
+├── docs/
+    └── app.md
+    └── configuration.md
+    └── install.md
+├── templates/
+    └── index.html
 ├── app.py
 ├── requirements.txt
-├── templates/
-│   └── index.html
 └── README.md
 ```
 
